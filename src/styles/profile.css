@@ -1,0 +1,79 @@
+.loginForm {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   gap: 2rem;
+   margin-top: 3rem;
+   width: 80%;
+}
+
+.loginForm input {
+   width: 100%;
+}
+
+.instructions {
+   font-size: 0.75rem;
+   border-radius: 0.5rem;
+   background: #000;
+   color: #fff;
+   padding: 0.25rem;
+   position: relative;
+   bottom: -10px;
+}
+
+.instructions>svg {
+   margin-right: 0.25rem;
+}
+
+.offscreen {
+   position: absolute;
+   left: -9999px;
+}
+
+.hide {
+   display: none;
+}
+
+.valid {
+   color: limegreen;
+   margin-left: 0.25rem;
+}
+
+.invalid {
+   color: red;
+   margin-left: 0.25rem;
+}
+
+.errmsg {
+   background-color: lightpink;
+   color: firebrick;
+   font-weight: bold;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.line a {
+
+   color: #4141cf !important;
+   transition: all 0.4s ease;
+}
+
+.line a:hover {
+   color: #1d1da5 !important;
+}
+
+.signupButton {
+   background: #40c840;
+   color: whitesmoke;
+   padding: 1rem 2rem;
+   margin: 1rem;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: all 0.4s ease;
+}
+
+.signupButton:hover {
+   transform: scale(1.1);
+   background: #1ea01e;
+}

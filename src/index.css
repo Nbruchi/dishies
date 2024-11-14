@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: white;
+    font-size: 0.75rem !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    color: unset !important;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: inherit;
+    opacity: 0.7;
+    font-family: "Poppins", sans-serif !important;
+}
+
+main {
+    padding: 0 50px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+button {
+    text-transform: capitalize !important;
+}
